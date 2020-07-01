@@ -13,35 +13,49 @@
         <legend>Personal information</legend>
         <div class="box">
           <label for="Surname">Surname:
-            <input type="text"
-            required id="Surname">
+            <input
+              type="checklist"
+              required
+              id="Surname"
+            >
           </label>
         </div>
         <div class="box">
           <label for="Name">Name:
-            <input type="text"
-            required id="Name">
+            <input
+              type="text"
+              required
+              id="Name"
+            >
           </label>
         </div>
         <div class="box">
           <label for="age">How old are You?:
-            <input type="number"
-            id="age"
-            value="12"
-            min="1"
-            max="199">
+            <input
+              type="number"
+              id="age"
+              value="12"
+              min="12"
+              max="199"
+            >
           </label>
         </div>
         <div class="box">
           <label for="Date">Full date of birth:
-            <input type="date"
-            required id="Date">
+            <input
+              type="date"
+              required
+              id="Date"
+            >
           </label>
         </div>
         <div class="box">
           <label for="Accept">I accept the term of the agreement
-            <input type="checkbox"
-            required id="Accept">
+            <input
+              type="checkbox"
+              required
+              id="Accept"
+            >
           </label>
         </div>
       </fieldset>
@@ -49,48 +63,63 @@
         <legend>Registration</legend>
         <div class="box">
           <label for="Mail">E-mail:
-            <input type="email"
-            placeholder="email@example.com"
-            required id="Mail">
+            <input
+              type="email"
+              placeholder="email@example.com"
+              required
+              id="Mail"
+            >
           </label>
         </div>
         <div class="box">
           <label for="Password">Password:
-            <input type="password"
-            required minlength="8"
-            id="Password">
+            <input
+              type="password"
+              required
+              minlength="8"
+              id="Password"
+            >
           </label>
         </div>
       </fieldset>
       <fieldset class="fieldset-m">
         <legend>An interesting fact about you!</legend>
         <div class="box">
-          <label for="yes">Do you love cats?
-            <input type="radio"
-            name="cats"
-            id="yes">Yes
+          Do you love cats?
+          <label for="yes">
+            <input
+              type="radio"
+              name="cats"
+              id="yes"
+            >Yes
           </label>
           <label for="no">
-            <input type="radio"
-            name="cats"
-            id="no">No
+            <input
+              type="radio"
+              name="cats"
+              id="no"
+            >No
           </label>
         </div>
         <div class="box">
           <label for="color">
             What is your favorite color?
-            <input type="color"
-            name="color"
-            id="color">
+            <input
+              type="color"
+              name="color"
+              id="color"
+            >
           </label>
         </div>
         <div class="box">
           <label for="time">
             What time do you go to bed?
-            <input type="time"
-            name="time"
-            id="time"
-            step="1">
+            <input
+              type="time"
+              name="time"
+              id="time"
+              step="1"
+            >
           </label>
         </div>
         <div class="box">
@@ -105,10 +134,12 @@
         </div>
         <div class="box">
           <label for="Rate">How do you rate our work?
-            <input type="range"
-            value="0"
-            max="10"
-            id="Rate">
+            <input
+              type="range"
+              value="0"
+              max="10"
+              id="Rate"
+            >
           </label>
         </div>
       </fieldset>
@@ -117,9 +148,11 @@
         <div class="box">
           <label for="comment">
             Comments:
-            <textarea cols="30"
-            rows="2"
-            id="comment">
+            <textarea
+              cols="30"
+              rows="2"
+              id="comment"
+            >
             </textarea>
           </label>
         </div>
@@ -136,14 +169,17 @@
         </label>
         </div>
       </fieldset>
-      <button type="submit"
-      name="button"
-      onsubmit="onSubmit()"
-      id="button">Submit
+      <button
+        type="submit"
+        name="button"
+        onsubmit="onSubmit()"
+        id="button"
+      >Submit
       </button>
     </form>
     <script type="text/javascript"
-    src="./main.js">
+      src="./main.js"
+    >
     </script>
   </body>
 </html>
